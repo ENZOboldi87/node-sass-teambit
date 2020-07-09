@@ -22,6 +22,10 @@ body .container {
   max-width: 720px;
 }
 
+body .col {
+  width: calc(100% / 2);
+}
+
 body .left {
   float: left;
 }

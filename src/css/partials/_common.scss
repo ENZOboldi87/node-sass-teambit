@@ -18,6 +18,10 @@ body {
     @include generalContainer;
   }
 
+  .col {
+    width: calc(100% / 2); 
+  }
+
   .left {
     float: left;
   }
@@ -25,4 +29,5 @@ body {
   .right {
     float: right;
   }
+
 }
