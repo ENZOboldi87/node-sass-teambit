@@ -1,0 +1,33 @@
+@mixin generalContainer {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 720px;
+}
+
+@mixin myButton {
+  background-color: #2d4792;
+  padding: 5px;
+  border-radius: 5px;
+  border: 10px;
+  color: white;
+  width: 80px;
+  height: 35px;
+}
+
+@mixin myGoogleLogo {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin myDropdownIcon {
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  margin-left: 4px;
+}

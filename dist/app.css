@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #57402c;
+}
+
+body a {
+  text-decoration: none;
+  color: #57402c;
+}
+
+body .container {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 720px;
+}
+
+body .left {
+  float: left;
+}
+
+body .right {
+  float: right;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+nav .myButton {
+  background-color: #2d4792;
+  padding: 5px;
+  border-radius: 5px;
+  border: 10px;
+  color: white;
+  width: 80px;
+  height: 35px;
+}
+
+nav .fa-angle-down {
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  margin-left: 4px;
+}
+
+nav .fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.myButton {
+  background-color: #2d4792;
+  padding: 5px;
+  border-radius: 5px;
+  border: 10px;
+  color: white;
+  width: 80px;
+  height: 35px;
+  width: 170px;
+  height: 25px;
+}
+
+.myButton .fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
