@@ -18,8 +18,12 @@ body {
     @include generalContainer;
   }
 
+  .context {
+    display: flex;
+  }
+
   .col {
-    width: calc(100% / 2); 
+    width: calc(100% / 2);
   }
 
   .left {

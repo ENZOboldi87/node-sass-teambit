@@ -1,9 +1,29 @@
 
 .content-header {
-  // padding: $padding_section;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  padding-bottom: 5px;
 
+  nav {
+    ul li {
+      display: inline-block;
+      padding: $padding_ul_navbar;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .myButton {
+      @include myButton;
+    }
+
+    .fa-angle-down {
+      @include myDropdownIcon;
+    }
+
+    .fa-google {
+      @include myGoogleLogo;
+    }
+  }
 
 }

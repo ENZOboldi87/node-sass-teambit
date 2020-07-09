@@ -19,7 +19,11 @@ body .container {
   padding-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 720px;
+  max-width: 1024px;
+}
+
+body .context {
+  display: flex;
 }
 
 body .col {
@@ -38,57 +42,85 @@ body .right {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 
-nav ul li {
+.content-header nav ul li {
   display: inline-block;
   padding: 0 10px;
   font-size: 12px;
   font-weight: 600;
 }
 
-nav .myButton {
+.content-header nav .myButton {
   background-color: #2d4792;
-  padding: 5px;
   border-radius: 5px;
-  border: 10px;
+  border: 0;
   color: white;
   width: 80px;
   height: 35px;
+  cursor: pointer;
 }
 
-nav .fa-angle-down {
+.content-header nav .fa-angle-down {
   font-size: 20px;
   position: absolute;
   top: 18px;
   margin-left: 4px;
 }
 
-nav .fa-google {
+.content-header nav .fa-google {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  font-size: 18px;
 }
 
-.myButton {
+.jumbotron .myButton {
   background-color: #2d4792;
-  padding: 5px;
   border-radius: 5px;
-  border: 10px;
+  border: 0;
   color: white;
   width: 80px;
   height: 35px;
+  cursor: pointer;
   width: 170px;
   height: 25px;
 }
 
-.myButton .fa-google {
+.jumbotron .myButton .fa-google {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+.jumbotron .myButton .fa-slack-hash {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-size: 20px;
+}
+
+.jumbotron img {
+  width: 100%;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.jumbotron p {
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.lower-jumbo {
+  background-color: #fde7d1;
 }
 
