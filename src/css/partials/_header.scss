@@ -23,6 +23,14 @@ header {
 
       .myButton {
         @include myButton;
+        background-color: #ffff;
+        color: $primary_btn_color;
+
+        &:hover {
+          background-color: $primary_btn_color;
+          color: #ffff;
+
+        }
       }
 
       .fa-angle-down {

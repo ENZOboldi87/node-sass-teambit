@@ -50,7 +50,7 @@ body .container {
   margin-right: auto;
   margin-left: auto;
   max-width: 1390px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -72,8 +72,8 @@ body .text-small {
 body .myButton {
   background-color: #2d4792;
   border-radius: 5px;
-  border: 0;
-  color: white;
+  border: 1px solid #2d4792;
+  color: #ffff;
   width: 120px;
   height: 45px;
   cursor: pointer;
@@ -133,12 +133,19 @@ header .content-header nav ul li {
 header .content-header nav .myButton {
   background-color: #2d4792;
   border-radius: 5px;
-  border: 0;
-  color: white;
+  border: 1px solid #2d4792;
+  color: #ffff;
   width: 120px;
   height: 45px;
   cursor: pointer;
   font-size: 18px;
+  background-color: #ffff;
+  color: #2d4792;
+}
+
+header .content-header nav .myButton:hover {
+  background-color: #2d4792;
+  color: #ffff;
 }
 
 header .content-header nav .fa-angle-down {
@@ -171,6 +178,11 @@ header .navbar_scrolled {
 .jumbotron .myButton {
   width: 200px;
   height: 40px;
+}
+
+.jumbotron .myButton:hover {
+  background-color: #ffff;
+  color: #2d4792;
 }
 
 .jumbotron .text-jumbo {
@@ -218,6 +230,11 @@ header .navbar_scrolled {
   height: 40px;
 }
 
+.lower-jumbo .myButton:hover {
+  background-color: #ffff;
+  color: #2d4792;
+}
+
 .lower-jumbo h3 {
   font-size: 50px;
 }
@@ -246,6 +263,11 @@ header .navbar_scrolled {
 .lower-jumbo .box .reference-letter {
   display: flex;
   align-items: center;
+}
+
+.central-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .central-content h2 {

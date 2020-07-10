@@ -5,7 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1390px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -29,8 +29,8 @@
 @mixin myButton {
   background-color: #2d4792;
   border-radius: 5px;
-  border: 0;
-  color: white;
+  border: 1px solid $primary_btn_color;
+  color: #ffff;
   width: 120px;
   height: 45px;
   cursor: pointer;

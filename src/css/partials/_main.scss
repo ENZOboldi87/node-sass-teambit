@@ -3,6 +3,11 @@
   .myButton {
     width: 200px;
     height: 40px;
+
+    &:hover {
+      background-color: #ffff;
+      color: $primary_btn_color;
+    }
   }
 
   .text-jumbo {
@@ -47,6 +52,11 @@
   .myButton {
     width: 200px;
     height: 40px;
+
+    &:hover {
+      background-color: #ffff;
+      color: $primary_btn_color;
+    }
   }
 
   h3 {
@@ -76,6 +86,9 @@
 }
 
 .central-content {
+
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   h2 {
     text-align: left;
