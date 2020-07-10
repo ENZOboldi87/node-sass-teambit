@@ -1,29 +1,37 @@
+header {
 
-.content-header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
+  .container {
+    margin-top: 0;
+  }
 
-  nav {
-    ul li {
-      display: inline-block;
-      padding: $padding_ul_navbar;
-      font-size: 12px;
-      font-weight: 600;
+  .content-header {
+    @include headerContent;
+
+    .img_logo{
+      width: 160%;
     }
 
-    .myButton {
-      @include myButton;
+    nav {
+      ul li {
+        display: inline-block;
+        padding: $padding_ul_navbar;
+        font-size: $header_li_size;
+        font-weight: 600;
+      }
+
+      .myButton {
+        @include myButton;
+      }
+
+      .fa-angle-down {
+        @include myDropdownIcon;
+      }
+
+      .fa-google {
+        @include myGoogleLogo;
+      }
     }
 
-    .fa-angle-down {
-      @include myDropdownIcon;
-    }
-
-    .fa-google {
-      @include myGoogleLogo;
-    }
   }
 
 }

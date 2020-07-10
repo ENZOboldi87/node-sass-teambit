@@ -2,8 +2,8 @@
 
   .myButton {
     @include myButton;
-    width: 170px;
-    height: 25px;
+    width: 200px;
+    height: 40px;
 
     .fa-google {
       @include myGoogleLogo;
@@ -16,28 +16,80 @@
 
   }
 
-  img {
-    width: 100%;
+  .text-jumbo {
+    padding-right: 35px;
   }
 
   h1 {
-    font-size: 50px;
-    padding: 20px 0;
+    @include h1Title;
   }
-
-  p {
-    font-size: 25px;
-    padding: 20px 0;
-  }
-
 
 }
 
-
-
-
-
-
 .lower-jumbo {
   @include lower-jumbo;
+
+  .img_lw_jumbo {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .context {
+    @include myContext;
+    text-align: center;
+    align-items: baseline;
+  }
+
+  .col {
+    width: calc(100% / 3);
+  }
+
+  .image-center {
+    width: 100%;
+    padding: 50px 20px;
+  }
+
+  .btm_border {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  // .text-medium {
+  //   @include h2MediumBold;
+  //   // font-weight: bold;
+  //   // text-align: center;
+  //   // padding: 20px 250px;
+  // }
+
+  .safe {
+    width: 30%;
+    padding: 15px;
+  }
+
+}
+
+.central-content {
+
+  h2 {
+    text-align: left;
+  }
+
+  .text-medium {
+    @include h2MediumBold;
+    text-align: left;
+  }
+
+  .mg_col {
+    width: 20%;
+  }
+
+  .flex-start {
+    justify-content: flex-start;
+  }
+
+  .flex-end {
+    justify-content: flex-end;
+  }
+
 }

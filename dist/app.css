@@ -13,63 +13,92 @@ body a {
   color: #57402c;
 }
 
+body h2 {
+  padding: 20px 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+body p {
+  padding: 20px 0;
+  font-size: 28px;
+  text-align: center;
+  text-align: left;
+}
+
+body img {
+  width: 100%;
+}
+
 body .container {
   width: 100%;
   padding-bottom: 10px;
   padding-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1024px;
+  max-width: 1390px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 body .context {
   display: flex;
+  padding: 0 20px;
 }
 
 body .col {
   width: calc(100% / 2);
 }
 
-body .left {
-  float: left;
+body .text-small {
+  padding: 20px 0;
+  font-size: 15px;
+  text-align: center;
 }
 
-body .right {
-  float: right;
+header .container {
+  margin-top: 0;
 }
 
-.content-header {
+header .content-header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
+  height: 70px;
 }
 
-.content-header nav ul li {
+header .content-header .img_logo {
+  width: 160%;
+}
+
+header .content-header nav ul li {
   display: inline-block;
-  padding: 0 10px;
-  font-size: 12px;
+  padding: 15px;
+  font-size: 25px;
   font-weight: 600;
 }
 
-.content-header nav .myButton {
+header .content-header nav .myButton {
   background-color: #2d4792;
   border-radius: 5px;
   border: 0;
   color: white;
-  width: 80px;
-  height: 35px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+header .content-header nav .fa-angle-down {
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  margin-left: 4px;
   cursor: pointer;
 }
 
-.content-header nav .fa-angle-down {
-  font-size: 20px;
-  position: absolute;
-  top: 18px;
-  margin-left: 4px;
-}
-
-.content-header nav .fa-google {
+header .content-header nav .fa-google {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
   color: transparent;
@@ -82,11 +111,12 @@ body .right {
   border-radius: 5px;
   border: 0;
   color: white;
-  width: 80px;
-  height: 35px;
+  width: 120px;
+  height: 45px;
   cursor: pointer;
-  width: 170px;
-  height: 25px;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
 }
 
 .jumbotron .myButton .fa-google {
@@ -106,21 +136,72 @@ body .right {
   font-size: 20px;
 }
 
-.jumbotron img {
-  width: 100%;
+.jumbotron .text-jumbo {
+  padding-right: 35px;
 }
 
 .jumbotron h1 {
+  padding: 20px 0;
   font-size: 50px;
-  padding: 20px 0;
-}
-
-.jumbotron p {
-  font-size: 25px;
-  padding: 20px 0;
 }
 
 .lower-jumbo {
   background-color: #fde7d1;
+  padding: 10px 0;
+}
+
+.lower-jumbo .img_lw_jumbo {
+  width: 50%;
+  padding: 20px;
+}
+
+.lower-jumbo .context {
+  display: flex;
+  padding: 0 20px;
+  text-align: center;
+  align-items: baseline;
+}
+
+.lower-jumbo .col {
+  width: calc(100% / 3);
+}
+
+.lower-jumbo .image-center {
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.lower-jumbo .btm_border {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.lower-jumbo .safe {
+  width: 30%;
+  padding: 15px;
+}
+
+.central-content h2 {
+  text-align: left;
+}
+
+.central-content .text-medium {
+  padding: 20px 0;
+  font-size: 28px;
+  text-align: center;
+  text-align: left;
+}
+
+.central-content .mg_col {
+  width: 20%;
+}
+
+.central-content .flex-start {
+  justify-content: flex-start;
+}
+
+.central-content .flex-end {
+  justify-content: flex-end;
 }
 

@@ -4,7 +4,17 @@
   padding-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1024px;
+  max-width: 1390px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@mixin headerContent {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  height: 70px;
 }
 
 @mixin myButton {
@@ -12,9 +22,10 @@
   border-radius: 5px;
   border: 0;
   color: white;
-  width: 80px;
-  height: 35px;
+  width: 120px;
+  height: 45px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 @mixin myGoogleLogo {
@@ -26,13 +37,38 @@
 }
 
 @mixin myDropdownIcon {
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  top: 18px;
+  top: 30px;
   margin-left: 4px;
+  cursor: pointer;
 }
 
 @mixin lower-jumbo {
-  background-color: #fde7d1;
+  background-color: $primary_bg_color;
+  padding: $padding_section;
 
 }
+
+@mixin h1Title {
+  padding: $padding_text;
+  font-size: $h1_text_size;
+}
+
+@mixin h2MediumBold {
+  padding: $padding_text;
+  font-size: $h2_text_medium;
+  text-align: center;
+}
+
+@mixin pSmall {
+  padding: $padding_text;
+  font-size: $p_text_small;
+  text-align: center;
+}
+
+ @mixin myContext {
+   display: flex;
+   padding: 0 20px;
+
+ }
