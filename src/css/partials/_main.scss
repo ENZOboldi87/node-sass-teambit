@@ -1,3 +1,4 @@
+// jumbotron
 .jumbotron {
 
   .myButton {
@@ -10,12 +11,18 @@
     }
   }
 
+  p.text-small {
+    text-align: left;
+  }
+
   .text-jumbo {
     padding-right: 35px;
   }
 
 }
+// ends jumbotron
 
+// lower jumbo
 .lower-jumbo {
   @include lower-jumbo;
 
@@ -81,10 +88,10 @@
     }
   }
 
-
-
 }
+// ends lower jumbo
 
+// central content
 .central-content {
 
   margin-top: 50px;
@@ -112,3 +119,4 @@
   }
 
 }
+// ends cental content
