@@ -118,8 +118,9 @@ header .content-header {
   height: 70px;
 }
 
-header .content-header .img_logo {
-  width: 160%;
+header .content-header .logo {
+  width: 15%;
+  padding: 10px;
 }
 
 header .content-header nav ul li {

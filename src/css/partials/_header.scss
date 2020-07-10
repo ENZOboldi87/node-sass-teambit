@@ -8,8 +8,9 @@ header {
   .content-header {
     @include headerContent;
 
-    .img_logo{
-      width: 160%;
+    .logo{
+      width: 15%;
+      padding: 10px;
     }
 
     nav {
