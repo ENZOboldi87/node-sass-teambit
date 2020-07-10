@@ -250,14 +250,27 @@ header .content-header nav .fa-google {
   justify-content: flex-end;
 }
 
+footer .footer-logo-text {
+  display: flex;
+  align-items: baseline;
+  flex-basis: 30%;
+}
+
 footer img {
   width: inherit;
 }
 
 footer ul li {
-  display: inline-block;
   padding: 10px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
+}
+
+footer .title_list {
+  font-size: 25px;
+}
+
+footer p {
+  padding: 20px 15px;
 }
 
