@@ -8,9 +8,22 @@ body {
   color: #57402c;
 }
 
+body ul {
+  list-style: none;
+}
+
 body a {
   text-decoration: none;
   color: #57402c;
+}
+
+body a:hover {
+  color: #2d4792;
+}
+
+body h1 {
+  padding: 20px 0;
+  font-size: 50px;
 }
 
 body h2 {
@@ -56,6 +69,34 @@ body .text-small {
   text-align: center;
 }
 
+body .myButton {
+  background-color: #2d4792;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+body .fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+body .fa-slack-hash {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-size: 20px;
+}
+
 header .container {
   margin-top: 0;
 }
@@ -68,7 +109,7 @@ header .content-header {
   height: 70px;
 }
 
-header .content-header .img_logo {
+header .content-header .img_ {
   width: 160%;
 }
 
@@ -107,47 +148,18 @@ header .content-header nav .fa-google {
 }
 
 .jumbotron .myButton {
-  background-color: #2d4792;
-  border-radius: 5px;
-  border: 0;
-  color: white;
-  width: 120px;
-  height: 45px;
-  cursor: pointer;
-  font-size: 18px;
   width: 200px;
   height: 40px;
-}
-
-.jumbotron .myButton .fa-google {
-  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  font-size: 18px;
-}
-
-.jumbotron .myButton .fa-slack-hash {
-  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  font-size: 18px;
-  font-size: 20px;
 }
 
 .jumbotron .text-jumbo {
   padding-right: 35px;
 }
 
-.jumbotron h1 {
-  padding: 20px 0;
-  font-size: 50px;
-}
-
 .lower-jumbo {
   background-color: #fde7d1;
   padding: 10px 0;
+  text-align: center;
 }
 
 .lower-jumbo .img_lw_jumbo {
@@ -156,8 +168,6 @@ header .content-header nav .fa-google {
 }
 
 .lower-jumbo .context {
-  display: flex;
-  padding: 0 20px;
   text-align: center;
   align-items: baseline;
 }
@@ -182,6 +192,41 @@ header .content-header nav .fa-google {
   padding: 15px;
 }
 
+.lower-jumbo .myButton {
+  width: 200px;
+  height: 40px;
+}
+
+.lower-jumbo h3 {
+  font-size: 50px;
+}
+
+.lower-jumbo .box {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  max-width: 50%;
+  padding: 20px;
+  border: 1px solid #00007e;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lower-jumbo .box p {
+  font-size: 20px;
+}
+
+.lower-jumbo .box img {
+  width: inherit;
+  text-align: left;
+}
+
+.lower-jumbo .box .reference-letter {
+  display: flex;
+  align-items: center;
+}
+
 .central-content h2 {
   text-align: left;
 }
@@ -203,5 +248,16 @@ header .content-header nav .fa-google {
 
 .central-content .flex-end {
   justify-content: flex-end;
+}
+
+footer img {
+  width: inherit;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 600;
 }
 

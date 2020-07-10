@@ -10,9 +10,22 @@
 body {
   color: $primary_text_color;
 
+  ul {
+    list-style: none;
+  }
+
   a {
     text-decoration: none;
     color: $primary_text_color;
+
+    &:hover {
+      color: $primary_btn_color;
+    }
+
+  }
+
+  h1 {
+    @include h1Title;
   }
 
   h2 {
@@ -42,6 +55,19 @@ body {
 
   .text-small {
     @include pSmall;
+  }
+
+  .myButton {
+    @include myButton;
+  }
+
+  .fa-google {
+    @include myGoogleLogo;
+  }
+
+  .fa-slack-hash {
+    @include myGoogleLogo;
+    font-size: 20px;
   }
 
 }

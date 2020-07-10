@@ -1,27 +1,12 @@
 .jumbotron {
 
   .myButton {
-    @include myButton;
     width: 200px;
     height: 40px;
-
-    .fa-google {
-      @include myGoogleLogo;
-    }
-
-    .fa-slack-hash {
-      @include myGoogleLogo;
-      font-size: 20px;
-    }
-
   }
 
   .text-jumbo {
     padding-right: 35px;
-  }
-
-  h1 {
-    @include h1Title;
   }
 
 }
@@ -35,7 +20,6 @@
   }
 
   .context {
-    @include myContext;
     text-align: center;
     align-items: baseline;
   }
@@ -55,17 +39,39 @@
     padding-bottom: 20px;
   }
 
-  // .text-medium {
-  //   @include h2MediumBold;
-  //   // font-weight: bold;
-  //   // text-align: center;
-  //   // padding: 20px 250px;
-  // }
-
   .safe {
     width: 30%;
     padding: 15px;
   }
+
+  .myButton {
+    width: 200px;
+    height: 40px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  .box {
+    @include myLetterBox;
+
+    p {
+      font-size: 20px;
+    }
+
+    img {
+      width: inherit;
+      text-align: left;
+    }
+
+    .reference-letter {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+
 
 }
 

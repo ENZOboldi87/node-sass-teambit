@@ -47,7 +47,7 @@
 @mixin lower-jumbo {
   background-color: $primary_bg_color;
   padding: $padding_section;
-
+  text-align: center;
 }
 
 @mixin h1Title {
@@ -70,5 +70,17 @@
  @mixin myContext {
    display: flex;
    padding: 0 20px;
+ }
+
+ @mixin myLetterBox {
+   margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  max-width: 50%;
+  padding: 20px;
+  border: 1px solid #00007e;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
  }
